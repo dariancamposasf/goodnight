@@ -8,23 +8,25 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+    "name": "Believe Irish Pub",
+    "profilePic": "assets/img/speakers/irishPub.jpg",
+    "about": "Sirve desayuno, almuerzo, cena, café y bebidas.",
   };
 
 
   constructor(public http: Http) {
     let items = [
       {
-         "name": "Burt Bear",
-         "profilePic": "assets/img/speakers/bear.jpg",
-         "about": "Burt is a Bear."
+         "name": "Believe Irish Pub",
+         "profilePic": "assets/img/speakers/irishPub.jpg",
+         "about": "Sirve desayuno, almuerzo, cena, café y bebidas.",
+         "direccion":"Av Colon 241 Ciudad de Mendoza"
        },
        {
-         "name": "Charlie Cheetah",
-         "profilePic": "assets/img/speakers/cheetah.jpg",
-         "about": "Charlie is a Cheetah."
+         "name": "Antares Mendoza",
+         "profilePic": "assets/img/speakers/antares.jpg",
+         "about": "Somos una cervecería artesanal",
+         "direccion":"Arístides Villanueva 153 Ciudad de Mendoza"
        },
        {
          "name": "Donald Duck",
